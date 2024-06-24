@@ -10,3 +10,51 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.base{
+background-color: black;
+height: 100px;
+width: 20px;
+margin: auto;
+}
+
+.body{
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.Light{
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.red {
+    background-color: red;    
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;   
+}
+
+.glow{
+    box-shadow: 0 0 50px white;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
